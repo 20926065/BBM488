@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BBM 488 - Twitter Search Web Application</title>
+<link href="css/htmlcss.css" rel="stylesheet" type="text/css" />
+
+<!-- This script added to run jquery function. -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	
+</script>
+<!-- This script create request method and send server, then 
+received json data. -->
+<script src="js/send.request.js"></script>
+<!-- This script inner html dynamically as a table format
+from json values.  -->
+<script src="js/create.table.js"></script>
+
+
+</head>
+<body>
+
+	<div class="main-div">
+
+		<div class="main-header"></div>
+
+
+		<div class="main-body">
+
+
+			<div class="main-body-center-div">
+            
+            <div class="main-body-title-div">
+            
+            </div>
+
+				<div class="main-body-search-error-div">
+					
+					<table class="main-body-search-error-table2">
+						<tr>
+							<td><div class="searchKeys-td">
+									<input type="text" id="searchKeys" />
+								</div>
+								<div class="searchButton-td">
+									<button id='searchButton'></button>
+								</div></td>
+						</tr>
+                        <tr><td id="advanced-search"> Advanced Search</td> </tr>
+
+					</table>
+
+
+				</div>
+                
+              <div class="main-body-extended-search-div">
+               <table id="main-body-search-error-table3">
+						<tr>
+							<td><div class="search-number-tweets-td">
+									#of Tweets: 
+									    <input type="text" id="search-number-tweets" />
+								</div>
+								<div class="search-refresh-time-td">
+									Refresh Time(sec): <input type="text" id='search-refresh-time'/>
+								</div></td>
+						</tr>
+                        
+
+					</table>
+                    <table class="main-body-search-error-table1">
+						<tr>
+							<td><div id="error-image-div"></div></td>
+						</tr>
+						<tr>
+							<td><div id="error-message-div"></div></td>
+						</tr>
+					</table>
+                </div>
+
+			  <div id="tableDiv"></div>
+			</div>
+
+		</div>
+
+
+
+
+		<div class="main-footer"></div>
+
+	</div>
+
+
+
+
+</body>
+</html>

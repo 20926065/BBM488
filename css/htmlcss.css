@@ -1,0 +1,290 @@
+@charset "utf-8";
+.htmlcss {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#303030;
+	
+}
+
+.main-div{
+}
+
+.main-header{
+	background:url(../img/header-div-background2.jpg);
+	width:1000px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+.main-footer{
+	background-image:url(../img/footer-div-background2.jpg);
+	width:1000px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.main-body{
+	background-image:url(../img/body-div-background3.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height: 750px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.main-body-title{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	margin-top:50px;
+	margin-bottom:10px;
+}
+	
+
+.main-body-center-div{
+	
+	width:80%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:120px;
+	margin-bottom:10px;
+	
+}
+
+.main-body-title-div{
+	text-align:center;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight:bold;
+	color:#303030;
+	
+}
+
+.main-body-extended-search-div{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight:bold;
+	color:#303030;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+
+
+.main-body-search-error-table1{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.main-body-search-error-table2{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#main-body-search-error-table3{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:1px solid #33B7DD;
+  	opacity:0.4;
+	background-color:#ffffff;
+	display:none;
+}
+
+#tableDiv{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+
+}
+.main-body-tweet-table{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	border:1;
+	
+}
+
+.searchKeys-td{
+	width:70%;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+}
+
+.searchButton-td{
+	width:20%;
+	margin-left:5px;
+	margin-right:5px;
+	float:right;
+	
+}
+
+td.full-user-name{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight:bold;
+	color:#303030;
+	width:auto;
+	font-size:17px;
+	float:left;
+	
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:2px;
+	margin-bottom:2px;
+   
+}
+td.user-name{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-style:italic;
+	color:#0099FF;
+	font-size:12px;
+	float:left;
+	
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+td.tweet-date{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size:12px;
+	float:right;
+	color:#4D4D4D;
+}
+
+td.tweet-body{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size:14px;
+	color:#4D4D4D;
+}
+
+.profil-picture{
+	height:55px;
+	width:55px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#searchKeys{
+	width:100%;
+	height: 25px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#303030;
+	font-size:20px;
+	
+	
+}
+#searchButton{
+	height: 30px;
+	width:75px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../img/search-button-background.jpg);
+
+}
+#error-message-div{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#303030;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	display:none;
+}
+
+#error-image-div{
+	width:100px;
+	height: 100px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#303030;
+	text-align:center;
+	background-image:url(../img/error-icon.png);
+	display:none;
+	
+}
+
+.search-number-tweets-td{
+	float:left;
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+	
+	width:50%;
+}
+
+#search-number-tweets{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+}
+
+.search-refresh-time-td{
+	float:right;
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+	
+	width:50%;
+}
+
+#search-refresh-time{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+}
+
+#advanced-search{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+	text-decoration:underline;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#advanced-search-td{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:#33B7DD;
+	text-align:center;
+	
+	text-decoration:underline;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+	
+	
+	
